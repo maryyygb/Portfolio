@@ -1,8 +1,18 @@
 import React from 'react';
+import Navbar from './components/Navbar.jsx';
+import Front from './components/Front.jsx';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <nav>
+      <Navbar/>
+      </nav>
+
+      <main>
+        <Front/>
+      </main>
+    </div>
   )
 }
 

@@ -1,1 +1,50 @@
 @import "tailwindcss";
+
+@layer components {
+    .hire-me {
+        background: linear-gradient(to top left, rgb(193, 71, 0), rgba(246, 156, 77, 0.92), rgb(255, 77, 0));
+    }
+
+    .name-logo {
+        background-image: linear-gradient(to top right, rgb(255, 77, 0), rgb(255, 77, 0), rgba(243, 189, 142, 0.941), rgb(255, 77, 0), rgb(255, 77, 0));
+        background-clip: text;
+        color: transparent;
+
+        font-weight: 900;
+    }
+
+    .dark-bg {
+        background:rgba(82, 32, 3, 0.584);
+        border: 1px solid rgba(188, 75, 10, 0.269);
+        color: rgba(255, 157, 0, 0.571);
+    }
+    
+    .front-bg {
+        background: rgb(47, 21, 12);
+    }
+
+    .active-dot-mobile {
+        width: 4px;
+        height: 4px;
+        background-color: white;
+        border-radius: 5px;
+        animation: active 1s ease-in-out infinite;
+    }
+
+    .role {
+        color: #d1d1d1de;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@keyframes active {
+    0% {
+        background: rgba(255, 106, 0, 0.524);
+    }
+    50% {
+        background: rgb(255, 106, 0);
+    }
+    100% {
+        background: rgba(255, 106, 0, 0.146);
+    }
+}
