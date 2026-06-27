@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import "tailwindcss";
 
 @layer components {
-    .hire-me {
+    .deco-sm {
+        z-index: 0;
+        width: 800px;
+        height: 800px;
+        background: linear-gradient(to bottom, rgb(217, 79, 0), rgb(255, 81, 0));
+        position: absolute;
+        bottom: -350px;
+        right: -350px;
+        border-radius: 50%;
+        filter: blur(200px);
+
+        box-shadow: -300px -300px 200px 10% linear-gradient(to bottom, rgb(217, 79, 0), rgb(255, 81, 0));
+    }
+
+    .navbar {
+        z-index: 1000;
+    }
+    .or-grad {
         background: linear-gradient(to top left, rgb(193, 71, 0), rgba(246, 156, 77, 0.92), rgb(255, 77, 0));
     }
 
@@ -33,7 +51,10 @@
 
     .role {
         color: #d1d1d1de;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
     }
 }
 

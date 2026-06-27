@@ -5,8 +5,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className='h-[8vh] w-[100%] bg-[#1C0F06]'>
-        <div className='h-full w-full flex flex-row text-white justify-center items-center gap-6 sm:pl-12 sm:pr-12 pl-5 pr-5 text-[10px] sm:text-xl'>
+    <div className="navbar h-[8vh] w-[100%] bg-[#1C0F06]/98">
+        <div className="h-full w-full flex flex-row text-white justify-center items-center gap-6 sm:pl-12 sm:pr-12 pl-5 pr-5 text-[10px] sm:text-xl">
             <h1 className='name-logo mr-auto text-[.75rem] sm:text-2xl'>MARY G.B.</h1>
 
               {/* DESKTOP RESPONSIVENESS */}
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <p className='cursor-pointer'><a href="#">SKILLS</a></p>
                 <p className='cursor-pointer'><a href="#">WORKS</a></p>
                 <p className='cursor-pointer'><a href="#">REVIEWS</a></p>
-                <p className='cursor-pointer hire-me pt-2 pb-2 rounded-[1rem] w-[30%] text-center'><a href="#" className='w-full '>HIRE ME</a></p>
+                <p className='cursor-pointer or-grad pt-2 pb-2 rounded-[1rem] w-[30%] text-center'><a href="#" className='w-full '>HIRE ME</a></p>
             </div>
         )}
     </div>
