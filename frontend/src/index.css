@@ -43,7 +43,7 @@
     }
 
     .name-logo {
-        background-image: linear-gradient(to top right, rgb(255, 77, 0), rgb(255, 77, 0), rgba(243, 189, 142, 0.941), rgb(255, 77, 0), rgb(255, 77, 0));
+        background-image: linear-gradient(to top left, rgb(255, 77, 0), rgb(255, 77, 0), rgba(243, 189, 142, 0.941), rgb(255, 77, 0), rgb(255, 77, 0));
         background-clip: text;
         color: transparent;
 
@@ -76,7 +76,7 @@
         font-style: normal;
     }
 
-    .exp-num {
+    .exp-num, .about-title {
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
     }

@@ -1,19 +1,26 @@
 // import React from 'react';
-import Navbar from './components/Navbar.jsx';
-import Front from './components/Front.jsx';
+import Navbar from "./components/Navbar.jsx";
+import Front from "./components/Front.jsx";
+import About from "./components/About.jsx";
 
 const App = () => {
   return (
-    <div>
-      <nav className="relative z-50">
-      <Navbar/>
+    <div className="relative">
+      <nav className="relative z-50 fixed">
+        <div className="fixed w-screen">
+          <Navbar />
+        </div>
       </nav>
 
       <main className="relative z-0 overflow-hidden">
-        <Front/>
+        <Front />
       </main>
-    </div>
-  )
-}
 
-export default App
+      <section>
+        <About />
+      </section>
+    </div>
+  );
+};
+
+export default App;
