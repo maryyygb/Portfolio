@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar.jsx";
 import Front from "./components/Front.jsx";
 import About from "./components/About.jsx";
+import Expertise from "./components/Expertise.jsx";
 
 const App = () => {
   return (
@@ -12,12 +13,13 @@ const App = () => {
         </div>
       </nav>
 
-      <main className="relative z-0 overflow-hidden">
+      <main className="relative z-0 overflow-hidden" id="#home">
         <Front />
       </main>
 
       <section>
         <About />
+        <Expertise />
       </section>
     </div>
   );

@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="navbar h-[8vh] w-[100%] bg-[#1C0F06]/98 border-1 border-b-amber-700/30">
         <div className="h-full w-full flex flex-row text-white justify-center items-center gap-6 sm:pl-12 sm:pr-12 pl-5 pr-5 text-[10px] sm:text-xl">
-            <h1 className="name-logo mr-auto text-lg sm:text-xl lg:text-2xl">MARY G.B.</h1>
+            <a className="name-logo mr-auto text-lg sm:text-xl lg:text-2xl" href="#home">MARY G.B.</a>
 
               {/* DESKTOP RESPONSIVENESS */}
             <div className="nav-list-con font-semibold hidden text-orange-50/80 sm:flex gap-8 sm:items-center sm:text-sm md:text-base lg:text-sm">
