@@ -4,7 +4,8 @@ import { FaCircle } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="sm:h-screen w-screen/10 bg-[#221209] relative pb-10 sm:pb-0">
+    <div className="sm:h-screen w-screen/10 bg-[#221209] relative pb-10 sm:pb-0 border-1 border-b-orange-500/60 overflow-hidden">
+      <div className="about-me-deco"></div>
       <div className="lg:px-22 lg:pt-25 lg:pb-18 px-10 py-8 sm:pt-18 sm:pb-14 sm:px-18 xl:px-65">
         <h4 className="text-[8px] text-orange-500/70 font-bold tracking-widest lg:text-lg md:text-sm">
           WHO I AM

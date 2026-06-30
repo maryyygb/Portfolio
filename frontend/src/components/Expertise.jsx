@@ -2,7 +2,7 @@
 
 const Expertise = () => {
   return (
-    <div>Expertise</div>
+    <div></div>
   )
 }
 

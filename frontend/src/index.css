@@ -35,6 +35,13 @@
         box-shadow: 100px 100px 100px rgb(255, 123, 0);
     }
 
+    .about-me-deco {
+        @apply bg-orange-500 absolute inset-x-0 -bottom-45;
+        height: 100px;
+        width: 100%;
+        filter: blur(100px);
+    }
+
     .navbar {
         z-index: 1000;
     }

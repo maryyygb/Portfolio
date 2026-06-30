@@ -4,9 +4,9 @@ import { TfiDownload, TfiArrowRight } from "react-icons/tfi";
 const Front = () => {
   return (
     <div className="hero z-20 front-bg flex items-center h-screen w-full p-5 sm:p-25 lg:pl-35">
-      <div className="deco-sm hidden sm:block"></div>
-      <div className="deco-sm2 hidden sm:block"></div>
-      <div className="flex flex-col gap-2 pt-8 md:pt-28 lg:pt-36">
+      <div className="deco-sm -right-[600px] -bottom-[600px] sm:block z-10 md:-right-[600px] md:-bottom-[550px] lg:-right-[200px]"></div>
+      <div className="deco-sm2 -right-[180px] -bottom-[600px] sm:block z-10 md:-right-[200px] lg:-right-[100px]"></div>
+      <div className="flex flex-col gap-2 pt-8 md:pt-28 lg:pt-36 z-40 px-2 sm:px-0">
         <div className="dark-bg text-center text-[8px] tracking-widest rounded-[2rem] py-2 px-5 w-[45%] w-fit sm:text-sm lg:text-sm flex justify-center items-center sm:gap-1 md:gap-2">
           <div className="active-dot-mobile sm:w-2 sm:h-2 text-center sm:mt-[1px] mr-1"></div>
           AVAILABLE FOR WORK
@@ -36,7 +36,7 @@ const Front = () => {
             Download CV <TfiDownload />
           </a>
         </div>
-        <div className="experience-sec flex text-orange-50 mt-6 md:my-10 lg:my-18 md:gap-10 gap-4 px-4">
+        <div className="experience-sec flex text-orange-50 mt-6 md:my-10 lg:my-18 md:gap-10 gap-4 px-4 z-50">
           <div>
             <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">1+</h3>
             <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">YEARS EXPERIENCE</p>
