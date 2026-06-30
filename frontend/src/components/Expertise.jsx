@@ -1,4 +1,5 @@
 // import React from 'react'
+import { FaFigma, FaNode, FaReact, FaDatabase, FaGitAlt, FaGoogleDrive } from "react-icons/fa6";
 
 const Expertise = () => {
   return (
@@ -14,6 +15,9 @@ const Expertise = () => {
             <div className="exp-div-three mt-2">
                 <div className="skills-set grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-6 gap-x-8 w-full">
                     <div className="skills">
+                        <div className="logos text-blue-400">
+                            <p><FaReact /></p>
+                        </div>
                         <p className="skills-title">Front Development</p>
                         <ul className="tech">
                             <li className="t">CSS3</li>
@@ -23,6 +27,9 @@ const Expertise = () => {
                         </ul>
                     </div>
                     <div className="skills">
+                        <div className="logos text-green-600">
+                            <p><FaNode/></p>
+                        </div>
                         <p className="skills-title">Backend Development</p>
                         <ul className="tech">
                             <li className="t">Java</li>
@@ -32,6 +39,9 @@ const Expertise = () => {
                         </ul>
                     </div>
                     <div className="skills">
+                        <div className="logos text-pink-400">
+                            <p><FaFigma/></p>
+                        </div>
                         <p className="skills-title">Design & UX</p>
                         <ul className="tech">
                             <li className="t">GSAP</li>
@@ -41,6 +51,9 @@ const Expertise = () => {
                         </ul>
                     </div>
                     <div className="skills">
+                        <div className="logos text-yellow-600">
+                            <p><FaDatabase/></p>
+                        </div>
                         <p className="skills-title">Database & Cloud</p>
                         <ul className="tech">
                             <li className="t">MongoDB</li>
@@ -48,6 +61,9 @@ const Expertise = () => {
                         </ul>
                     </div>
                     <div className="skills">
+                        <div className="logos text-red-600">
+                            <p><FaGitAlt/></p>
+                        </div>
                         <p className="skills-title">DevOps & Tools</p>
                         <ul className="tech">
                             <li className="t">Git</li>
@@ -57,6 +73,9 @@ const Expertise = () => {
                         </ul>
                     </div>
                     <div className="skills">
+                        <div className="logos text-green-400">
+                            <p><FaGoogleDrive/></p>
+                        </div>
                         <p className="skills-title">Other Tools</p>
                         <ul className="tech">
                             <li className="t">Canva</li>
