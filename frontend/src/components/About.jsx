@@ -4,10 +4,10 @@ import { FaCircle } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="sm:h-screen w-screen/10 bg-[#221209] relative pb-10 sm:pb-0 border-1 border-b-orange-500/60 overflow-hidden">
+    <div className="w-screen/10 bg-[#221209] relative pb-15 border-1 border-b-orange-500/60 overflow-hidden">
       <div className="about-me-deco"></div>
       <div className="lg:px-22 lg:pt-25 lg:pb-18 px-10 py-8 sm:pt-18 sm:pb-14 sm:px-18 xl:px-65">
-        <h4 className="text-[8px] text-orange-500/70 font-bold tracking-widest lg:text-lg md:text-sm">
+        <h4 className="sec-titles-format">
           WHO I AM
         </h4>
       </div>
@@ -21,11 +21,11 @@ const About = () => {
             />
           </div>
           <div className="about-card m-auto xl:m-0 w-full sm:w-[95%] xl:w-[65%]">
-            <h1 className="about-title text-xl sm:text-3xl lg:text-6xl text-orange-50 font-semibold tracking-wide mb-4 sm:mb-6">
+            <h1 className="about-title text-orange-50 font-semibold tracking-wide mb-4 sm:mb-6">
               Turning <span className="italic text-orange-500/80">ideas</span>{" "}
               into remarkable products
             </h1>
-            <div className="about-me text-orange-50 flex flex-col gap-2 sm:gap-5 text-xs sm:text-lg">
+            <div className="about-me text-orange-50/70 flex flex-col gap-2 sm:gap-5 text-xs sm:text-base">
               <p>
                 Hey - Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Enim, nobis id alias nulla blanditiis iusto quas consectetur ad

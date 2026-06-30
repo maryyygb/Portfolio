@@ -12,13 +12,13 @@ const Front = () => {
           AVAILABLE FOR WORK
         </div>
         <h1 className="role text-4xl font-bold sm:text-6xl lg:text-7xl xl:10xl lg:w-[60%] w-[90%] text-orange-50">
-          Junior Web{" "}
-          <span className="text-orange-500 italic">Developer</span> & Support
+          Junior Web <span className="text-orange-500 italic">Developer</span> &
+          Support
         </h1>
         <p className="text-orange-50/50 text-sm sm:text-2xl md:text-xl lg:text-2xl mt-3 sm:mt-6 sm:w-[80%] xl:text-xl">
           Passionate about creating{" "}
-          <span className="text-orange-50">user-friendly web solutions</span> and
-          delivering{" "}
+          <span className="text-orange-50">user-friendly web solutions</span>{" "}
+          and delivering{" "}
           <span className="text-orange-50">reliable backend support</span> that
           keeps businesses running smoothly.
         </p>
@@ -38,16 +38,28 @@ const Front = () => {
         </div>
         <div className="experience-sec flex text-orange-50 mt-6 md:my-10 lg:my-18 md:gap-10 gap-4 px-4 z-50">
           <div>
-            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">1+</h3>
-            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">YEARS EXPERIENCE</p>
+            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">
+              1+
+            </h3>
+            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">
+              YEARS EXPERIENCE
+            </p>
           </div>
           <div>
-            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">6+</h3>
-            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">PERSONAL PPROJECTS</p>
+            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">
+              6+
+            </h3>
+            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">
+              PERSONAL PPROJECTS
+            </p>
           </div>
           <div>
-            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">96%</h3>
-            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">CLIENT SATISFACTION</p>
+            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">
+              96%
+            </h3>
+            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">
+              CLIENT SATISFACTION
+            </p>
           </div>
         </div>
       </div>
