@@ -11,25 +11,25 @@ const Navbar = () => {
             <a className="name-logo mr-auto text-lg sm:text-xl lg:text-2xl" href="#home">MARY G.B.</a>
 
               {/* DESKTOP RESPONSIVENESS */}
-            <div className="nav-list-con font-semibold hidden text-orange-50/80 sm:flex gap-8 sm:items-center sm:text-sm md:text-base lg:text-sm">
+            <div className="normal-t text-xs font-semibold hidden text-orange-50/80 sm:flex gap-8 sm:items-center sm:text-sm lg:text-sm">
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">ABOUT</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">SKILLS</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">WORKS</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">REVIEWS</a></p>
-                <p className="cursor-pointer text-orange-50 or-grad px-6 py-1 rounded-full w-[30%] text-center font-medium"><a href="#">HIRE ME</a></p>
+                <p className="cursor-pointer text-orange-950 or-grad px-6 py-2 rounded-full border-solid border-1 border-slate-500/80 w-[30%] text-center font-medium"><a href="#">HIRE ME</a></p>
             </div>
 
-            <button className='cursor-pointer text-lg text-orange-400/70 sm:hidden'
+            <button className='cursor-pointer text-lg text-orange-400/80 sm:hidden'
                     onClick={() => setOpen(!open)}><TiThMenu /></button>
         </div>
         {/* MOBILE RESPONSIVENESS */}
         {open && (
-          <div className="sm:hidden font-semibold text-orange-50 nav-list-con text-[10px] flex flex-col items-center gap-6 bg-[#1C0F06] p-4 text-white mt-0 mb-4">
+          <div className="sm:hidden font-semibold nav-list-con text-[10px] flex flex-col items-center gap-6 bg-[#1C0F06] p-4 text-orange-50/70 mt-0 mb-4">
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">ABOUT</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">SKILLS</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">WORKS</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">REVIEWS</a></p>
-                <p className='cursor-pointer or-grad pt-2 pb-2 rounded-[1rem] w-[30%] text-center'><a href="#" className='w-full '>HIRE ME</a></p>
+                <p className='cursor-pointer or-grad pt-2 pb-2 rounded-[1rem] w-[30%] text-center text-orange-950 font-bold'><a href="#" className='w-full '>HIRE ME</a></p>
             </div>
         )}
     </div>

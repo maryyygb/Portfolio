@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Front from "./components/Front.jsx";
 import About from "./components/About.jsx";
 import Expertise from "./components/Expertise.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
         <About />
         <Expertise />
       </section>
+
+      <Footer />
     </div>
   );
 };

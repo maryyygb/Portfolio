@@ -15,49 +15,49 @@ const Front = () => {
           Junior Web <span className="text-orange-500 italic">Developer</span> &
           Support
         </h1>
-        <p className="text-orange-50/50 text-sm sm:text-2xl md:text-xl lg:text-2xl mt-3 sm:mt-6 sm:w-[80%] xl:text-xl">
+        <p className="normal-t text-orange-50/50 text-sm sm:text-2xl md:text-xl lg:text-2xl mt-3 sm:mt-6 sm:w-[80%] xl:text-xl">
           Passionate about creating{" "}
           <span className="text-orange-50">user-friendly web solutions</span>{" "}
           and delivering{" "}
           <span className="text-orange-50">reliable backend support</span> that
           keeps businesses running smoothly.
         </p>
-        <div className="text-orange-50 text-sm flex flex-row gap-2 sm:gap-5 sm:text-2xl sm:mt-6 mt-4">
+        <div className="normal-t text-orange-900 text-sm flex flex-row gap-2 sm:gap-5 sm:text-2xl sm:mt-6 mt-4">
           <a
             href=""
-            className="or-grad text-xs px-4 py-2 bg-amber-500 rounded-full border-solid border-1 border-slate-500/80 border-dark sm:px-14 sm:py-4 sm:text-xl lg:text-xl font-medium flex items-center gap-4"
+            className="or-grad text-xs px-4 py-2 bg-amber-500 rounded-full border-solid border-1 border-slate-500/80 border-dark sm:px-14 sm:py-4 sm:text-xl lg:text-xl font-medium flex items-center gap-3"
           >
             See My Work <TfiArrowRight />
           </a>
           <a
             href=""
-            className="text-xs px-4 py-2 sm:px-14 sm:py-4 sm:text-xl lg:text-xl text-orange-50/80 rounded-full border-solid border-1 border-orange-50/25 z-40 flex gap-4 items-center"
+            className="text-xs px-4 py-2 sm:px-14 sm:py-4 sm:text-xl lg:text-xl text-orange-50/80 rounded-full border-solid border-1 border-orange-50/25 z-40 flex gap-2 items-center"
           >
             Download CV <TfiDownload />
           </a>
         </div>
         <div className="experience-sec flex text-orange-50 mt-6 md:my-10 lg:my-18 md:gap-10 gap-4 px-4 z-50">
           <div>
-            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">
+            <h3 className="exp-num text-3xl sm:text-4xl font-bold text-orange-500/90 lg:text-6xl md:text-5xl">
               1+
             </h3>
-            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">
+            <p className="normal-t text-[11px]/3 text-orange-50/50 tracking-wide md:text-sm lg:text-base xl:text-md md:tracking-normal md:my-2 md:font-semibold">
               YEARS EXPERIENCE
             </p>
           </div>
           <div>
-            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">
+            <h3 className="exp-num text-3xl sm:text-4xl font-bold text-orange-500/90 lg:text-6xl md:text-5xl">
               6+
             </h3>
-            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">
+            <p className="normal-t text-[11px]/3 text-orange-50/50 tracking-wide md:text-sm lg:text-base xl:text-md md:tracking-normal md:my-2 md:font-semibold">
               PERSONAL PPROJECTS
             </p>
           </div>
           <div>
-            <h3 className="exp-num text-2xl font-bold text-orange-500/90 lg:text-6xl md:text-4xl">
+            <h3 className="exp-num text-3xl sm:text-4xl font-bold text-orange-500/90 lg:text-6xl md:text-5xl">
               96%
             </h3>
-            <p className="text-[11px]/3 text-orange-50/50 tracking-wide md:text-base lg:text-md md:tracking-normal md:my-2 md:font-semibold">
+            <p className="normal-t text-[11px]/3 text-orange-50/50 tracking-wide md:text-sm lg:text-base xl:text-md md:tracking-normal md:my-2 md:font-semibold">
               CLIENT SATISFACTION
             </p>
           </div>

@@ -1,10 +1,20 @@
+/* Special Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Normal Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import "tailwindcss";
 
 @layer components {
 
     .sec-titles-format {
         @apply text-orange-500 font-bold tracking-widest text-[8px] lg:text-base md:text-xs  font-semibold tracking-widest;
+    }
+
+    .normal-t {
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .hero {
@@ -51,11 +61,11 @@
         z-index: 1000;
     }
     .or-grad {
-        background: linear-gradient(to top left, rgb(193, 71, 0), rgba(246, 156, 77, 0.92), rgb(255, 77, 0));
+        background: linear-gradient(to top left, rgb(214, 78, 0), rgba(246, 133, 77, 0.92), rgb(255, 77, 0));
     }
 
     .name-logo {
-        background-image: linear-gradient(to top left, rgb(255, 77, 0), rgb(255, 77, 0), rgba(243, 189, 142, 0.941), rgb(255, 77, 0), rgb(255, 77, 0));
+        background-image: radial-gradient(circle, rgb(255, 77, 0), rgb(255, 77, 0), rgba(243, 189, 142, 0.941), rgb(255, 77, 0), rgb(255, 77, 0));
         background-clip: text;
         color: transparent;
 
@@ -94,29 +104,62 @@
     }
 
     .about-title, .exper-title {
-        @apply text-3xl sm:text-4xl lg:text-5xl;
+        @apply 
+        text-3xl 
+        sm:text-4xl 
+        lg:text-5xl;
     }
 
     /* EXPERTISE SECTION */
     .skills {
-        @apply p-6 rounded-xl w-3/3 flex flex-col gap-4 border-1 border-orange-800/30 hover:shadow-[0_0_15px_5px] hover:shadow-orange-800/30 transition-shadow duration-300;
+        @apply 
+        p-6 
+        rounded-xl 
+        w-3/3
+        flex 
+        flex-col 
+        gap-4 
+        border-1 
+        border-orange-800/30 
+        hover:shadow-[0_0_15px_5px] 
+        hover:shadow-orange-800/30
+        transition-shadow duration-300;
         background: linear-gradient(to top, rgba(94, 27, 0, 0.54), rgba(77, 24, 0, 0.605), rgba(86, 30, 0, 0.616));
     }
 
     .logos {
-        @apply flex gap-2 text-3xl bg-orange-500/20 size-fit p-2 rounded-xl;
+        @apply 
+        flex 
+        gap-2 
+        text-3xl 
+        bg-orange-500/20 
+        size-fit 
+        p-2 
+        rounded-xl;
     }
 
     .skills-title {
-        @apply font-semibold tracking-wide;
+        @apply 
+        font-semibold 
+        tracking-wide;
     }
 
     .tech {
-        @apply flex gap-2 flex-wrap;
+        @apply 
+        flex 
+        flex-wrap
+        gap-2; 
     }
 
     .t {
-        @apply text-amber-600 text-xs py-1 px-3 border-1 border-amber-600/60 rounded-full;
+        @apply 
+        text-amber-600 
+        text-xs 
+        py-1 
+        px-3 
+        border-1 
+        border-amber-600/60 
+        rounded-full;
         background: rgba(109, 36, 0, 0.726);
     }
 }

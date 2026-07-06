@@ -19,12 +19,12 @@ const Expertise = () => {
           <h2 className="exper-title font-bold tracking-wide mb-2">
             Technical <span className="text-orange-500 italic">Skills</span>
           </h2>
-          <p className="text-orange-50/70 text-base w-[50vw] md:w-[500px]">
+          <p className="normal-t text-orange-50/70 text-base w-[50vw] md:w-[500px]">
             Technologies and tools I use to build end-to-end solutions - from
             concept to deployment.
           </p>
         </div>
-        <div className="exp-div-three mt-2">
+        <div className="normal-t exp-div-three mt-2">
           <div className="skills-set grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-6 gap-x-8 w-full">
             <div className="skills">
               <div className="logos text-blue-400">

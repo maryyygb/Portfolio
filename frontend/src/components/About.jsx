@@ -25,7 +25,7 @@ const About = () => {
               Turning <span className="italic text-orange-500/80">ideas</span>{" "}
               into remarkable products
             </h1>
-            <div className="about-me text-orange-50/70 flex flex-col gap-2 sm:gap-5 text-xs sm:text-base">
+            <div className="normal-t about-me text-orange-50/70 flex flex-col gap-2 sm:gap-5 text-xs sm:text-base">
               <p>
                 Hey - Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Enim, nobis id alias nulla blanditiis iusto quas consectetur ad
