@@ -1,11 +1,18 @@
-import express from "express"
+import express from "express";
+import projectsRoutes from "./routes/projectsRoutes.js";
+import { connectDB } from "./config/db.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
+const PORT = process.env.PORT || 5001;
 
-app.get("/api/projects", (req, res) => {
-    res.send("This is the projects located.");
-})
+connectDB();
 
-app.listen(5001, () => {
-    console.log("Server started on Port: ", 5001);
+app.use("/api/projects", projectsRoutes);
+
+app.listen(PORT, () => {
+    console.log("------------------------------");
+    console.log("Server's PORT: ", PORT);
 })
