@@ -16,7 +16,7 @@ const Navbar = () => {
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">SKILLS</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">WORKS</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">REVIEWS</a></p>
-                <p className="cursor-pointer text-orange-950 or-grad px-6 py-2 rounded-full border-solid border-1 border-slate-500/80 w-[30%] text-center font-medium"><a href="#">HIRE ME</a></p>
+                <p className="cursor-pointer text-orange-950 or-grad px-6 py-2 rounded-full border-solid border-1 border-slate-500/80 w-[30%] text-center font-medium hover:cursor-pointer hover:shadow-[0_0_10px_2px] hover:shadow-orange-500"><a href="#">HIRE ME</a></p>
             </div>
 
             <button className='cursor-pointer text-lg text-orange-400/80 sm:hidden'

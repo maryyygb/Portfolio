@@ -11,7 +11,7 @@ const Front = () => {
           <div className="active-dot-mobile sm:w-2 sm:h-2 text-center sm:mt-[1px] mr-1"></div>
           AVAILABLE FOR WORK
         </div>
-        <h1 className="role text-5xl font-bold sm:text-6xl lg:text-7xl xl:text-10xl lg:w-[60%] w-[90%] text-orange-50">
+        <h1 className="role text-5xl font-bold sm:text-6xl lg:text-8xl xl:text-11xl lg:w-[60%] w-[90%] text-orange-50">
           Junior Web <span className="text-orange-500 italic">Developer</span> &
           Support
         </h1>
@@ -25,13 +25,13 @@ const Front = () => {
         <div className="normal-t text-orange-900 text-sm flex flex-row gap-2 sm:gap-5 sm:text-2xl sm:mt-6 mt-4">
           <a
             href=""
-            className="or-grad text-xs px-4 py-2 bg-amber-500 rounded-full border-solid border-1 border-slate-500/80 border-dark sm:px-14 sm:py-4 sm:text-xl lg:text-xl font-medium flex items-center gap-3"
+            className="or-grad text-xs px-4 py-2 bg-amber-500 rounded-full border-solid border-1 border-slate-500/80 border-dark sm:px-14 sm:py-4 sm:text-xl lg:text-xl font-medium flex items-center gap-3 hover:cursor-pointer hover:shadow-[0_0_10px_2px] hover:shadow-orange-800"
           >
             See My Work <TfiArrowRight />
           </a>
           <a
             href=""
-            className="text-xs px-4 py-2 sm:px-14 sm:py-4 sm:text-xl lg:text-xl text-orange-50/80 rounded-full border-solid border-1 border-orange-50/25 z-40 flex gap-2 items-center"
+            className="text-xs px-4 py-2 sm:px-14 sm:py-4 sm:text-xl lg:text-xl text-orange-50/80 rounded-full border-solid border-1 border-orange-50/25 z-40 flex gap-2 items-center hover:cursor-pointer hover:shadow-[0_0_10px_2px] hover:shadow-slate-500"
           >
             Download CV <TfiDownload />
           </a>

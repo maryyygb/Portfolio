@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Expertise from "./components/Expertise.jsx";
 import Footer from "./components/Footer.jsx";
 import Portfolio from "./components/Portfolio.jsx";
+import Action from "./components/Action.jsx";
 
 const App = () => {
   return (
@@ -22,9 +23,8 @@ const App = () => {
       <section>
         <About />
         <Expertise />
-        <hr className="hr-line" />
         <Portfolio />
-        <hr className="hr-line" />
+        <Action />
       </section>
 
       <Footer />

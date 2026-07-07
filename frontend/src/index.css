@@ -50,6 +50,33 @@
         box-shadow: 100px 100px 100px rgb(255, 123, 0);
     }
 
+    .ac-deco1 {
+        z-index: 0;
+        position: absolute;
+        right: 1px;
+        bottom: 0px;
+
+        width: 400px;
+        height: 200px;
+        background: radial-gradient(circle, rgba(255, 123, 0, 0.832), rgba(255, 94, 0, 0.832), rgba(219, 69, 0, 0.832), rgba(176, 56, 0, 0.832), #542910, #221209);
+        border-radius: 100%;
+        filter: blur(100px)
+    }
+
+    .ac-deco2 {
+        z-index: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+
+        width: 300px;
+        height: 200px;
+        background: radial-gradient(circle, rgba(255, 123, 0, 0.832), rgba(255, 94, 0, 0.832), rgba(219, 69, 0, 0.832), rgba(176, 56, 0, 0.832), #542910, #221209);
+        border-radius: 100%;
+        filter: blur(100px)
+    }
+
     .about-me-deco {
         @apply bg-orange-500 absolute inset-x-0 -bottom-45;
         height: 100px;
@@ -98,7 +125,7 @@
         font-style: normal;
     }
 
-    .exp-num, .about-title, .exper-title {
+    .exp-num, .about-title, .exper-title, .action-title {
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
     }
@@ -167,6 +194,11 @@
         border-amber-600/60 
         rounded-full;
         background: rgba(109, 36, 0, 0.726);
+    }
+
+    /* ACTION */
+    .reach-d {
+        font-family: monospace;
     }
 }
 
