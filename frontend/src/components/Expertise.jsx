@@ -10,7 +10,7 @@ import {
 
 const Expertise = () => {
   return (
-    <div className="relative bg-[#221209] text-orange-50 py-4 pb-20 px-8 lg:px-20">
+    <div className="exp-con relative bg-[#221209] text-orange-50 py-4 pb-20 px-8 lg:px-20">
       <div className="flex flex-col gap-8">
         <div className="exp-div-one pt-10">
           <h4 className="sec-titles-format">EXPERTISE</h4>

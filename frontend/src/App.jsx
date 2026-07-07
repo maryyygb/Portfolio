@@ -4,6 +4,7 @@ import Front from "./components/Front.jsx";
 import About from "./components/About.jsx";
 import Expertise from "./components/Expertise.jsx";
 import Footer from "./components/Footer.jsx";
+import Portfolio from "./components/Portfolio.jsx";
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
       <section>
         <About />
         <Expertise />
+        <hr className="hr-line" />
+        <Portfolio />
       </section>
 
       <Footer />

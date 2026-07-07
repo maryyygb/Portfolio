@@ -111,6 +111,12 @@
     }
 
     /* EXPERTISE SECTION */
+
+    .exp-con {
+        border-bottom: 1px solid;
+        border-image: radial-gradient(circle at bottom, rgb(235, 63, 0), rgb(138, 53, 10), #221209, #221209) 1;
+    }
+
     .skills {
         @apply 
         p-6 
