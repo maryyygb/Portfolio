@@ -24,6 +24,7 @@ const App = () => {
         <Expertise />
         <hr className="hr-line" />
         <Portfolio />
+        <hr className="hr-line" />
       </section>
 
       <Footer />
