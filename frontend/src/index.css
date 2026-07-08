@@ -200,6 +200,16 @@
     .reach-d {
         font-family: monospace;
     }
+
+    /* SERVICES */
+    .offers {
+        @apply
+        flex 
+        flex-row
+        items-start
+        justify-items-center
+        gap-1;
+    }
 }
 
 @keyframes active {

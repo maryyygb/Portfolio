@@ -11,7 +11,7 @@ const Portfolio = () => {
           <h2 className="exper-title font-bold tracking-wide mb-2">
             Technical <span className="text-orange-500 italic">Skills</span>
           </h2>
-          <p className="normal-t text-orange-50/70 text-base w-[50vw] md:w-[500px]">
+          <p className="normal-t text-orange-50/70 text-sm w-[60vw] md:w-[500px]">
             A curated sample of recent projects - each built with obsessive
             attention to performance, design, and developer experience.
           </p>

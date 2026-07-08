@@ -6,6 +6,7 @@ import Expertise from "./components/Expertise.jsx";
 import Footer from "./components/Footer.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Action from "./components/Action.jsx";
+import Services from "./components/Services.jsx";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <section>
         <About />
         <Expertise />
+        <Services />
         <Portfolio />
         <Action />
       </section>
