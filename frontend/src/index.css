@@ -210,6 +210,115 @@
         justify-items-center
         gap-1;
     }
+
+    .role-n {
+        @apply
+         text-5xl 
+         font-bold 
+         relative
+         text-orange-500
+         mb-4;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+
+    .role-w {
+        @apply
+        text-sm
+        absolute
+        top-0
+        left-0
+        ml-1
+        tracking-[5px]
+        font-bold
+        text-orange-50;
+    }
+
+    .role-title {
+        @apply
+        text-2xl
+        md:text-3xl
+        font-bold
+        text-orange-50;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+
+    .role-des {
+        @apply
+        text-xs
+        md:text-sm
+        text-orange-50/70;
+    }
+
+    .role-sec-1 {
+        @apply 
+        flex
+        flex-col
+        gap-2;
+    }
+
+    .role-rating {
+        @apply
+        mt-5;
+    }
+
+    .dollar-s {
+        @apply
+        text-orange-500
+        text-lg
+        place-self-start;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+
+    .ratings {
+        @apply
+        text-orange-500
+        text-5xl
+        font-black
+        
+        absolute;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        text-shadow: 0px 1px 10px rgba(237, 138, 84, 0.397);
+    }
+
+    .pricing {
+        @apply
+        flex
+        items-center
+        gap-9
+        relative
+        text-slate-50/35
+        mb-3;
+    }
+
+    .offers-c {
+        @apply 
+        flex 
+        flex-col 
+        gap-1 
+        my-2 
+        text-xs
+        text-orange-50/60
+        tracking-wide;
+    }
+
+    .mono {
+        @apply 
+        leading-none
+        italic
+        text-orange-50/50;
+        font-family: monospace;
+    }
+
+    .included {
+        @apply 
+        font-bold
+        text-sm
+        text-orange-50/40;
+    }
 }
 
 @keyframes active {

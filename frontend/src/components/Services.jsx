@@ -1,4 +1,4 @@
-import { CiCircleCheck } from "react-icons/ci";
+import { FaCheckCircle } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -19,225 +19,250 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="mt-8">
-          <div className="text-orange-50 grid md:grid-cols-2 xl:grid-cols-4 gap-y-6 gap-x-6">
-            <div className="skills">
-              <div>
-                <p>ROLE 01</p>
-                <h2>Frontend Developer</h2>
-                <p>
+        <div className="mt-12">
+          <div className="text-orange-50 grid md:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-8">
+            <div className="skills p-8 border-1 border-solid border-orange-600/35">
+              <div className="role-sec-1">
+                <p className="role-n">
+                  01 <span className="role-w">role</span>
+                </p>
+                <h2 className="role-title">Frontend Developer</h2>
+                <p className="role-des">
                   Responsive UIs built in MERN Stack. I turn designs into fast,
                   accessible, and polished web experiences.
                 </p>
               </div>
-              <div>
-                <p className="pricing">7/hr</p>
-                <p>
+              <div className="role-rating">
+                <p className="pricing gap-11">
+                  <span className="dollar-s">$</span>{" "}
+                  <span className="ratings absolute left-5 -top-5">7</span> /hr
+                </p>
+                <p className="mono">
                   Monthly retainer available - <span>$700 / mo</span>
                 </p>
-                <p>25 hours / week - Mon-Fri only</p>
+                <p className="mono">25 hours / week - <span className="line-through font-bold text-orange-300 text-sm">$758</span></p>
+                <p className="mono">Mon - Fri only</p>
               </div>
-              <div>
-                <p>WHAT'S INCLUDED</p>
-                <ul className="flex flex-col gap-2 my-4">
+              <div className="mt-3">
+                <p className="included">WHAT'S INCLUDED</p>
+                <ul className="offers-c">
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Responsive UI Development
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Responsive UI Development
                     (React JS)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Tailwind CSS & Custom
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Tailwind CSS & Custom
                     component design systems
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Landing pages & marketing
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Landing pages & marketing
                     websites
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Figma-to-code
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Figma-to-code
                     implementation
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Website Animations (GSAP)
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website Animations (GSAP)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Other
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Willing to learn other
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Willing to learn other
                     tools/programming languages
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="skills">
-              <div>
-                <p>ROLE 02</p>
-                <h2>Full Stack Developer</h2>
-                <p>
+            <div className="skills p-8 border-1 border-solid border-orange-600/35">
+              <div className="role-sec-1">
+                <p className="role-n">
+                  02 <span className="role-w">role</span>
+                </p>
+                <h2 className="role-title">Full Stack Developer</h2>
+                <p className="role-des">
                   End-to-end product development - from database architecture to
                   deployed UI. I own the full lifecycle of what I build.
                 </p>
               </div>
-              <div>
-                <p className="pricing">10/hr</p>
-                <p>
+              <div className="role-rating">
+                <p className="pricing gap-16">
+                  <span className="dollar-s">$</span>{" "}
+                  <span className="ratings left-4 -top-5">10</span> /hr
+                </p>
+                <p className="mono">
                   Monthly retainer available - <span>$1000 / mo</span>
                 </p>
-                <p>25 hours / week - Mon-Fri only</p>
+                <p className="mono">25 hours / week - <span className="line-through font-bold text-orange-300 text-sm">$1083</span></p>
+                <p className="mono">Mon - Fri only</p>
               </div>
-              <div>
-                <p>WHAT'S INCLUDED</p>
-                <ul className="flex flex-col gap-1">
+              <div className="mt-3">
+                <p className="included">WHAT'S INCLUDED</p>
+                <ul className="offers-c">
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Full-stack app
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Full-stack app
                     development (React + Node.js)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> REST API & GraphQL design
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> REST API & GraphQL design
                     and implementation
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Database design - MongoDB
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Database design - MongoDB
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Authentication &
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Authentication &
                     role-based access control
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Third-party integration
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Third-party integration
                     (Stripe, OAuth, APIs)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Cloud deployment (Vercel,
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Cloud deployment (Vercel,
                     Supabase)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Code review,
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Code review,
                     documentation & handoff
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Post-launch support (14
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Post-launch support (14
                     days included)
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="skills">
-              <div>
-                <p>ROLE 03</p>
-                <h2>Virtual Assistant (Basic Package)</h2>
-                <p>
+            <div className="skills p-8 border-1 border-solid border-orange-600/35">
+              <div className="role-sec-1">
+                <p className="role-n">
+                  03 <span className="role-w">role</span>
+                </p>
+                <h2 className="role-title">
+                  Virtual Assistant (Basic Package)
+                </h2>
+                <p className="role-des">
                   Reliable, tech-savvy remote support. I handle the operational
                   tasks that eat your time so you can focus on growing your
                   business.
                 </p>
               </div>
-              <div>
-                <p className="pricing">4/hr</p>
-                <p>
-                  Monthly Salary - <span>$433 / mo</span>
+              <div className="role-rating">
+                <p className="pricing gap-12">
+                  <span className="dollar-s">$</span>{" "}
+                  <span className="ratings left-5 -top-5">5</span> /hr
                 </p>
-                <p>25 hours / week - Mon-Fri only</p>
+                <p className="mono">
+                  Monthly Salary - <span>$542 / mo</span>
+                </p>
+                <p className="mono">25 hours / week - Mon-Fri only</p>
               </div>
-              <div>
-                <p>WHAT'S INCLUDED</p>
-                <ul className="flex flex-col gap-1">
+              <div className="mt-3">
+                <p className="included">WHAT'S INCLUDED</p>
+                <ul className="offers-c">
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Email & calendar
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Email & calendar
                     management
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Data entry, research &
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Data entry, research &
                     documentation
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Social media scheduling &
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Social media scheduling &
                     content posting
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Basic graphic design
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Basic graphic design
                     (Canva, etc.)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> File organization &
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> File organization &
                     Google Workspace admin
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Spreadsheet management
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Spreadsheet management
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Inbox handling
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Inbox handling
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Other digital assistant
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other digital assistant
                     work. Mainly base on discussion.
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="skills">
-              <div>
-                <p>ROLE 04</p>
-                <h2>Virtual Assistant (Star Package)</h2>
-                <p>
+            <div className="skills p-8  border-1 border-solid border-orange-600/35">
+              <div className="role-sec-1">
+                <p className="role-n">
+                  04 <span className="role-w">role</span>
+                </p>
+                <h2 className="role-title">Virtual Assistant (Star Package)</h2>
+                <p className="role-des">
                   Specialized service not only provide basic operational support
                   but including Web Development/Management.
                 </p>
               </div>
-              <div>
-                <p className="pricing">8/hr</p>
-                <p>
+              <div className="role-rating">
+                <p className="pricing gap-12">
+                  <span className="dollar-s">$</span>{" "}
+                  <span className="ratings left-5 -top-3">8</span> /hr
+                </p>
+                <p className="mono">
                   Monthly retainer available - <span>$860 / mo</span>
                 </p>
-                <p>25 hours / week - Mon-Fri only</p>
+                <p className="mono">25 hours / week - <span className="line-through font-bold text-orange-300 text-sm">$867</span></p>
+                <p className="mono">Mon - Fri only</p>
               </div>
-              <div>
-                <p>WHAT'S INCLUDED</p>
-                <ul className="flex flex-col gap-1">
+              <div className="mt-3">
+                <p className="included">WHAT'S INCLUDED</p>
+                <ul className="offers-c">
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Email & calendar
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Email & calendar
                     management
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Data entry, research &
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Data entry, research &
                     documentation
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Social media scheduling &
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Social media scheduling &
                     content posting
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Basic graphic design
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Basic graphic design
                     (Canva, etc.)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> File organization &
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> File organization &
                     Google Workspace admin
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Spreadsheet management
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Spreadsheet management
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Other digital assistant
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other digital assistant
                     work. Mainly base on discussion.
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Customer support & inbox
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Customer support & inbox
                     handling
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Basic video editing
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Basic video editing
                     (Capcut, etc.)
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Website
-                    redesign/development
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website
+                    redesign / Basic landing site development
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Website Updates
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website Updates
                   </li>
                   <li className="offers">
-                    <CiCircleCheck className="mt-1" /> Additional AI Automation
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Additional AI Automation
                     (n8n)
                   </li>
                 </ul>
