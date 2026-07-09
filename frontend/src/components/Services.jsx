@@ -21,7 +21,8 @@ const Services = () => {
         </div>
         <div className="mt-12">
           <div className="text-orange-50 grid md:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-8">
-            <div className="skills p-8 border-1 border-solid border-orange-600/35">
+            <div className="skills p-8 border-1 border-solid border-orange-600/35 shadow-[0_0_15px_5px] 
+        shadow-orange-800/30">
               <div className="role-sec-1">
                 <p className="role-n">
                   01 <span className="role-w">role</span>
@@ -75,7 +76,8 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-            <div className="skills p-8 border-1 border-solid border-orange-600/35">
+            <div className="skills p-8 border-1 border-solid border-orange-600/35 shadow-[0_0_15px_5px] 
+        shadow-orange-800/30">
               <div className="role-sec-1">
                 <p className="role-n">
                   02 <span className="role-w">role</span>
@@ -134,7 +136,9 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-            <div className="skills p-8 border-1 border-solid border-orange-600/35">
+            <div className="skills p-8 border-1 border-solid border-orange-600/35 relative overflow-hidden bg-orange-900">
+            <div className="r-03 absolute top-0 left-0 bg-orange-500 h-1 w-full shadow-[0_1px_10px] shadow-orange-500"></div>
+            <div className="r-03 absolute bottom-0 left-0 bg-orange-500 h-1 w-full shadow-[0_1px_10px] shadow-orange-500"></div>
               <div className="role-sec-1">
                 <p className="role-n">
                   03 <span className="role-w">role</span>
@@ -194,7 +198,8 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-            <div className="skills p-8  border-1 border-solid border-orange-600/35">
+            <div className="skills p-8  border-1 border-solid border-orange-600/35 shadow-[0_0_15px_5px] 
+        shadow-orange-800/30">
               <div className="role-sec-1">
                 <p className="role-n">
                   04 <span className="role-w">role</span>
