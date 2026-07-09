@@ -94,6 +94,7 @@
     .navbar {
         z-index: 1000;
     }
+
     .or-grad {
         background: linear-gradient(to top left, rgb(214, 78, 0), rgba(246, 133, 77, 0.92), rgb(255, 77, 0));
     }
@@ -325,6 +326,40 @@
         font-bold
         text-sm
         text-orange-50/40;
+    }
+
+    /* PROCESS SECTION */
+
+    .p-title {
+        @apply
+        py-2
+        text-slate-950/50 text-sm text-center
+        font-bold
+        rounded-full;
+    }
+
+    .process-n {
+        @apply
+        py-2 px-4
+        bg-orange-500
+        text-slate-900
+        font-extrabold
+        rounded-full;
+        font-family: monospace;
+    }
+
+    .process-t {
+        @apply 
+        mt-4
+        text-sm
+        text-orange-50;
+        font-family: "Playfair Display", serif;
+    }
+
+    .process-d {
+        @apply
+        text-xs
+        text-slate-50/50;
     }
 }
 

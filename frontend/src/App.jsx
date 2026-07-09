@@ -7,6 +7,7 @@ import Footer from "./components/Footer.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Action from "./components/Action.jsx";
 import Services from "./components/Services.jsx";
+import Process from "./components/Process.jsx";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <section>
         <About />
         <Expertise />
+        <Process />
         <Services />
         <Portfolio />
         <Action />
