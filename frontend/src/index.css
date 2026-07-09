@@ -77,8 +77,15 @@
         filter: blur(100px)
     }
 
-    .about-me-deco {
+    .about-me-deco1 {
         @apply bg-orange-500 absolute inset-x-0 -bottom-45;
+        height: 100px;
+        width: 100%;
+        filter: blur(100px);
+    }
+
+    .about-me-deco2 {
+        @apply bg-orange-500 absolute inset-x-0 -top-45;
         height: 100px;
         width: 100%;
         filter: blur(100px);

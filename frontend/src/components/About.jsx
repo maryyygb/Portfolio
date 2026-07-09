@@ -5,7 +5,8 @@ import { FaCircle } from "react-icons/fa";
 const About = () => {
   return (
     <div className="w-screen/10 bg-[#221209] relative pb-16 md:pb-22 border-1 border-b-orange-500/60 overflow-hidden">
-      <div className="about-me-deco"></div>
+      <div className="about-me-deco1"></div>
+      <div className="about-me-deco2"></div>
       <div className="lg:px-22 lg:pt-25 lg:pb-18 px-10 py-8 sm:pt-18 sm:pb-14 sm:px-18 xl:px-65">
         <h4 className="sec-titles-format">
           WHO I AM

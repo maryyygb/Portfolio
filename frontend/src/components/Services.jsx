@@ -1,4 +1,4 @@
-import { FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle, FaCircle } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -273,6 +273,10 @@ const Services = () => {
                 </ul>
               </div>
             </div>
+          </div>
+
+          <div className="mt-14 flex justify-center">
+            <p className="flex gap-1 text-orange-50/40 text-xs italic"><FaCircle className="h-[5px] mt-[5px] text-orange-700" /> All rates are in USD. Available for short-term projects, long-term contracts & part-time engagements.</p>
           </div>
         </div>
       </div>
