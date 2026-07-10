@@ -9,7 +9,7 @@ const Services = () => {
             <h4 className="sec-titles-format">WHAT I OFFER</h4>
           </div>
           <div className="exp-div-two text-orange-50 pt-8">
-            <h2 className="exper-title font-bold tracking-wide mb-2">
+            <h2 className="exper-title font-bold tracking-wide">
               Services & <span className="text-orange-500 italic">Rates</span>
             </h2>
             <p className="normal-t text-orange-50/70 text-sm w-[60vw] md:w-[500px]">

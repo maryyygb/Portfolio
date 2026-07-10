@@ -7,7 +7,7 @@
 @layer components {
 
     .sec-titles-format {
-        @apply text-orange-500 font-bold tracking-widest text-[8px] lg:text-base md:text-xs  font-semibold tracking-widest;
+        @apply text-orange-500 font-bold tracking-widest text-[8px] lg:text-base md:text-xs font-semibold tracking-widest;
     }
 
     .normal-t {
@@ -143,6 +143,11 @@
         text-3xl 
         sm:text-4xl 
         lg:text-5xl;
+    }
+
+    .exper-title {
+        @apply
+        mb-5;
     }
 
     /* EXPERTISE SECTION */
@@ -340,7 +345,7 @@
 
     .process-n {
         @apply
-        py-2 px-4
+        py-[9px] px-4
         bg-orange-500
         text-slate-900
         font-extrabold
@@ -351,8 +356,10 @@
     .process-t {
         @apply 
         mt-4
-        text-sm
-        text-orange-50;
+        text-sm text-orange-50
+        font-extrabold
+        tracking-wider
+        mb-2;
         font-family: "Playfair Display", serif;
     }
 
