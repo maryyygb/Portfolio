@@ -11,7 +11,7 @@ const Front = () => {
           <div className="active-dot-mobile sm:w-2 sm:h-2 text-center sm:mt-[1px] mr-1"></div>
           AVAILABLE FOR WORK
         </div>
-        <h1 className="role text-5xl font-bold sm:text-6xl lg:text-8xl xl:text-11xl lg:w-[60%] w-[90%] text-orange-50">
+        <h1 className="role text-5xl font-bold sm:text-6xl lg:text-8xl xl:text-11xl lg:w-[70%] w-[90%] text-orange-50">
           Junior Web <span className="text-orange-500 italic">Developer</span> &
           Support
         </h1>
