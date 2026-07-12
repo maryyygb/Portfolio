@@ -38,10 +38,10 @@ const Services = () => {
                   <span className="dollar-s">$</span>{" "}
                   <span className="ratings absolute left-5 -top-5">7</span> /hr
                 </p>
-                <p className="mono">
-                  Monthly retainer available - <span>$700 / mo</span>
+                <p className="mono text-amber-500">
+                  Monthly retainer available - <span>$710 / mo</span>
                 </p>
-                <p className="mono">25 hours / week - <span className="line-through font-bold text-orange-300 text-sm">$758</span></p>
+                <p className="mono">25 hours / week - <span className="line-through font-bold text-red-500 text-sm">$758</span></p>
                 <p className="mono">Mon - Fri only</p>
               </div>
               <div className="mt-3">
@@ -93,10 +93,10 @@ const Services = () => {
                   <span className="dollar-s">$</span>{" "}
                   <span className="ratings left-4 -top-5">10</span> /hr
                 </p>
-                <p className="mono">
-                  Monthly retainer available - <span>$1000 / mo</span>
+                <p className="mono text-amber-500">
+                  Monthly retainer available - <span>$1040 / mo</span>
                 </p>
-                <p className="mono">25 hours / week - <span className="line-through font-bold text-orange-300 text-sm">$1083</span></p>
+                <p className="mono">25 hours / week - <span className="line-through font-bold text-red-500 text-sm">$1083</span></p>
                 <p className="mono">Mon - Fri only</p>
               </div>
               <div className="mt-3">
@@ -155,10 +155,13 @@ const Services = () => {
               <div className="role-rating">
                 <p className="pricing gap-12">
                   <span className="dollar-s">$</span>{" "}
-                  <span className="ratings left-5 -top-5">5</span> /hr
+                  <span className="ratings left-5 -top-5">4</span> /hr
                 </p>
-                <p className="mono">
-                  Monthly Salary - <span>$542 / mo</span>
+                <p className="mono text-amber-500">
+                  Basic monthly rate - <span>$433 / mo</span>
+                </p>
+                <p className="mono text-amber-500">
+                  $1 hourly increase every 6 months
                 </p>
                 <p className="mono">25 hours / week - Mon-Fri only</p>
               </div>
@@ -211,14 +214,14 @@ const Services = () => {
                 </p>
               </div>
               <div className="role-rating">
-                <p className="pricing gap-12">
+                <p className="pricing gap-18">
                   <span className="dollar-s">$</span>{" "}
-                  <span className="ratings left-5 -top-3">8</span> /hr
+                  <span className="ratings left-5 -top-5">10</span> /hr
                 </p>
-                <p className="mono">
-                  Monthly retainer available - <span>$860 / mo</span>
+                <p className="mono text-amber-500">
+                  Monthly retainer available - <span>$1040 / mo</span>
                 </p>
-                <p className="mono">25 hours / week - <span className="line-through font-bold text-orange-300 text-sm">$867</span></p>
+                <p className="mono">25 hours / week - <span className="line-through font-bold text-red-500 text-sm">$1083</span></p>
                 <p className="mono">Mon - Fri only</p>
               </div>
               <div className="mt-3">
@@ -248,10 +251,6 @@ const Services = () => {
                     <FaCheckCircle className="mt-[2px] text-orange-600" /> Spreadsheet management
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other digital assistant
-                    work. Mainly base on discussion.
-                  </li>
-                  <li className="offers">
                     <FaCheckCircle className="mt-[2px] text-orange-600" /> Customer support & inbox
                     handling
                   </li>
@@ -260,15 +259,19 @@ const Services = () => {
                     (Capcut, etc.)
                   </li>
                   <li className="offers">
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website Updates
+                  </li>
+                  <li className="offers">
                     <FaCheckCircle className="mt-[2px] text-orange-600" /> Website
                     redesign / Basic landing site development
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website Updates
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Additional basic AI Automation
+                    (n8n)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Additional AI Automation
-                    (n8n)
+                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other digital assistant
+                    work. Mainly base on discussion.
                   </li>
                 </ul>
               </div>

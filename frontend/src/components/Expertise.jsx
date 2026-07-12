@@ -25,7 +25,7 @@ const Expertise = () => {
           </p>
         </div>
         <div className="normal-t exp-div-three mt-2">
-          <div className="skills-set grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-6 gap-x-8 w-full">
+          <div className="skills-set grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-6 gap-x-8 w-full">
             <div className="skills">
               <div className="logos text-blue-400">
                 <p>

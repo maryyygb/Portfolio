@@ -344,6 +344,7 @@
 
     .five-p-each {
         @apply
+        bg-[#221209] sm:bg-transparent
         flex flex-col items-center gap-5;
     }
 
@@ -359,6 +360,7 @@
 
     .p-numbering {
         @apply 
+        bg-[#221209]
         w-9 py-1
         text-orange-600 text-center
         border-1 border-solid border-orange-600/80
