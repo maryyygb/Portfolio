@@ -100,13 +100,14 @@ const Expertise = () => {
                   <FaGoogleDrive />
                 </p>
               </div>
-              <p className="skills-title">Other Tools</p>
+              <p className="skills-title">VA Tools</p>
               <ul className="tech">
                 <li className="t">Canva</li>
                 <li className="t">Capcut</li>
+                <li className="t">Zoom</li>
                 <li className="t">Trello/Asana</li>
-                <li className="t">Claude/Gemini</li>
-                <li className="t">Google Workspace</li>
+                <li className="t">ChatGPT/Claude/Gemini</li>
+                <li className="t">Google Workspace/Microsoft Office</li>
                 <li className="t">Google Calendar/Calendly</li>
               </ul>
             </div>

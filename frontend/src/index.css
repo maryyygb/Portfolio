@@ -159,12 +159,12 @@
 
     .skills {
         @apply 
-        p-6 
+        p-4 sm:p-6 
         rounded-xl 
         w-3/3
         flex 
         flex-col 
-        gap-4 
+        gap-2 sm:gap-4 
         border-1 
         border-orange-800/30 
         hover:shadow-[0_0_15px_5px] 
@@ -177,7 +177,7 @@
         @apply 
         flex 
         gap-2 
-        text-3xl 
+        text-xl sm:text-3xl 
         bg-orange-500/20 
         size-fit 
         p-2 
@@ -186,6 +186,7 @@
 
     .skills-title {
         @apply 
+        text-xs sm:text-base
         font-semibold 
         tracking-wide;
     }
@@ -200,7 +201,7 @@
     .t {
         @apply 
         text-amber-600 
-        text-xs 
+        text-[8px] sm:text-xs 
         py-1 
         px-3 
         border-1 
@@ -344,6 +345,7 @@
 
     .five-p-each {
         @apply
+        pb-2
         bg-[#221209] sm:bg-transparent
         flex flex-col items-center gap-5;
     }

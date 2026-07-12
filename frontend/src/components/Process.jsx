@@ -42,7 +42,7 @@ const Process = () => {
               </div>
             </div>
             <div className="five-process normal-t relative grid sm:grid-cols-3 gap-4 gap-y-8 xl:grid-cols-5 mt-12">
-              <div className="absolute h-[1px] sm:w-[68%] lg:w-[68%] xl:w-[80%] bg-red-500/90 top-4 sm:left-26 lg:left-38 xl:left-41 xl:top-4 z-0"></div>
+              <div className="absolute h-[90%] w-[1px] left-[50%] sm:h-[1px] sm:w-[68%] lg:w-[68%] xl:w-[80%] bg-red-500/90 top-4 sm:left-26 lg:left-38 xl:left-41 xl:top-4 z-0"></div>
               <div className="absolute hidden sm:block md:block lg:block h-[1px] sm:w-[29%] md:w-[30%] lg:w-[32%] xl:w-[80%] bg-red-500/90 sm:top-[57%] md:top-[55%] sm:left-[18%] lg:top-[60%] lg:left-38 xl:left-41 xl:top-4 z-0"></div>
               <div className="five-p-each z-10">
                 <div
