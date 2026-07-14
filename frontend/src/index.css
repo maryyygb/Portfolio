@@ -388,6 +388,92 @@
         text-orange-50/70 text-xs xl:text-sm text-center
         w-3/4;
     }
+
+    /* My Experience */
+
+    .backg-con {
+        @apply
+        flex flex-col
+        gap-2;
+    }
+
+    .bg-header {
+        @apply
+        relative;
+    }
+
+    .bg-h1 {
+        @apply
+        lg:flex lg:flex-col
+        lg:gap-1;
+    }
+
+    .bg-h2 {
+        @apply
+        px-2 py-1
+
+        absolute
+        top-0 right-0
+        md:right-5
+
+        text-orange-500
+        text-xs sm:text-sm
+        bg-orange-900/40
+
+        rounded-full
+        border-[1px] 
+        border-solid border-orange-500;
+
+        font-family: monospace;
+    }
+
+    .bg-h-sub {
+        @apply
+        w-3/4
+        flex
+        flex-wrap
+        items-center
+        gap-x-2
+        
+        text-orange-50/70
+        text-[12px];
+    }
+
+    .bg-h-title {
+        @apply 
+        font-bold
+        text-orange-50 text-lg sm:text-xl;
+
+        font-family: "Playfair Display", serif;
+    }
+
+    .bg-worktype {
+        @apply
+        font-bold
+        text-orange-400
+        text-xs;
+    }
+
+    .bg-worksetup {
+        @apply
+        text-orange-50/60;
+    }
+
+    .faCircle {
+        @apply
+        text-[5px];
+    }
+
+    .bg-des-content {
+        @apply 
+        text-xs lg:text-sm;
+    }
+
+    .bg-features {
+        @apply
+        text-xs
+        lg:text-sm;
+    }
     
 }
 

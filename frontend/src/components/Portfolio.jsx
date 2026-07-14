@@ -17,7 +17,7 @@ const Portfolio = () => {
           </p>
         </div>
         <div>
-          <ul className="projects normal-t grid grid-cols-2 gap-10 xl:w-2/4">
+          <ul className="projects normal-t grid sm:grid-cols-2 gap-10 xl:w-2/4">
             <li className="relative rounded-3xl bg-orange-800/40  border-1 border-orange-500/40 rounded-3xl">
               <div className="relative">
                 <p className="category absolute right-5 top-4 bg-orange-950 text-xs px-4 py-2 rounded-full text-orange-400">SOCIAL MEDIA</p>

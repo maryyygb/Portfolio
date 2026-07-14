@@ -48,29 +48,29 @@ const Services = () => {
                 <p className="included">WHAT'S INCLUDED</p>
                 <ul className="offers-c">
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Responsive UI Development
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Responsive UI Development
                     (React JS)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Tailwind CSS & Custom
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Tailwind CSS & Custom
                     component design systems
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Landing pages & marketing
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Landing pages & marketing
                     websites
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Figma-to-code
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Figma-to-code
                     implementation
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website Animations (GSAP)
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Website Animations (GSAP)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Other
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Willing to learn other
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Willing to learn other
                     tools/programming languages
                   </li>
                 </ul>
@@ -103,34 +103,34 @@ const Services = () => {
                 <p className="included">WHAT'S INCLUDED</p>
                 <ul className="offers-c">
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Full-stack app
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Full-stack app
                     development (React + Node.js)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> REST API & GraphQL design
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> REST API & GraphQL design
                     and implementation
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Database design - MongoDB
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Database design - MongoDB
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Authentication &
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Authentication &
                     role-based access control
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Third-party integration
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Third-party integration
                     (Stripe, OAuth, APIs)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Cloud deployment (Vercel,
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Cloud deployment (Vercel,
                     Supabase)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Code review,
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Code review,
                     documentation & handoff
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Post-launch support (14
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Post-launch support (14
                     days included)
                   </li>
                 </ul>
@@ -169,33 +169,33 @@ const Services = () => {
                 <p className="included">WHAT'S INCLUDED</p>
                 <ul className="offers-c">
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Email & calendar
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Email & calendar
                     management
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Data entry, research &
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Data entry, research &
                     documentation
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Social media scheduling &
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Social media scheduling &
                     content posting
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Basic graphic design
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Basic graphic design
                     (Canva, etc.)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> File organization &
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> File organization &
                     Google Workspace admin
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Spreadsheet management
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Spreadsheet management
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Inbox handling
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Inbox handling
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other digital assistant
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Other digital assistant
                     work. Mainly base on discussion.
                   </li>
                 </ul>
@@ -228,49 +228,49 @@ const Services = () => {
                 <p className="included">WHAT'S INCLUDED</p>
                 <ul className="offers-c">
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Email & calendar
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Email & calendar
                     management
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Data entry, research &
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Data entry, research &
                     documentation
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Social media scheduling &
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Social media scheduling &
                     content posting
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Basic graphic design
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Basic graphic design
                     (Canva, etc.)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> File organization &
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> File organization &
                     Google Workspace admin
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Spreadsheet management
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Spreadsheet management
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Customer support & inbox
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Customer support & inbox
                     handling
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Basic video editing
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Basic video editing
                     (Capcut, etc.)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website Updates
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Website Updates
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Website
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Website
                     redesign / Basic landing site development
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Additional basic AI Automation
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Additional basic AI Automation
                     (n8n)
                   </li>
                   <li className="offers">
-                    <FaCheckCircle className="mt-[2px] text-orange-600" /> Other digital assistant
+                    <FaCheckCircle className="mt-[2px] text-[10px] text-orange-600" /> Other digital assistant
                     work. Mainly base on discussion.
                   </li>
                 </ul>
