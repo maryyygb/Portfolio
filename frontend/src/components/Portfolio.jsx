@@ -20,7 +20,7 @@ const Portfolio = () => {
           <ul className="projects normal-t grid sm:grid-cols-2 gap-10 xl:w-2/4">
             <li className="relative rounded-3xl bg-orange-800/40  border-1 border-orange-500/40 rounded-3xl">
               <div className="relative">
-                <p className="category absolute right-5 top-4 bg-orange-950 text-xs px-4 py-2 rounded-full text-orange-400">SOCIAL MEDIA</p>
+                <p className="category absolute right-2 top-2 bg-orange-950 text-xs px-4 py-2 rounded-full text-orange-400">SOCIAL MEDIA</p>
                 <img className="rounded-t-3xl" src={img} alt="" />
               </div>
 
@@ -46,7 +46,7 @@ const Portfolio = () => {
             </li>
             <li className="relative rounded-3xl bg-orange-800/40 border-1 border-orange-500/40 rounded-3xl">
               <div className="relative">
-                <p className="category absolute right-5 top-4 bg-orange-950 text-xs px-4 py-2 rounded-full text-orange-400">E-COMMERCE</p>
+                <p className="category absolute right-2 top-2 bg-orange-950 text-xs px-4 py-2 rounded-full text-orange-400">E-COMMERCE</p>
                 <img className="rounded-t-3xl" src={img} alt="" />
               </div>
               <div className="px-6 py-8 flex flex-col gap-2 border-solid border-t-1 border-orange-500/40">

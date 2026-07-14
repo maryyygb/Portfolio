@@ -394,7 +394,20 @@
     .backg-con {
         @apply
         flex flex-col
-        gap-2;
+        gap-2
+        relative;
+    }
+
+    .exp-circle {
+        @apply
+        absolute
+        -left-9 top-3
+        xl:-left-17
+        h-2 w-2
+        rounded-full
+        bg-orange-500
+        shadow-[0_0_5px_10px] 
+        shadow-orange-800/30;
     }
 
     .bg-header {
@@ -429,7 +442,6 @@
 
     .bg-h-sub {
         @apply
-        w-3/4
         flex
         flex-wrap
         items-center
@@ -442,7 +454,8 @@
     .bg-h-title {
         @apply 
         font-bold
-        text-orange-50 text-lg sm:text-xl;
+        text-orange-50 text-lg sm:text-xl
+        w-3/4;
 
         font-family: "Playfair Display", serif;
     }
@@ -473,6 +486,36 @@
         @apply
         text-xs
         lg:text-sm;
+    }
+
+    .bg-fea-list {
+        @apply
+        flex items-center
+        gap-2
+        pl-4
+        italic;
+    }
+
+    .faCheck {
+        @apply
+        text-orange-600
+        text-[10px];
+    }
+
+    .bg-techs {
+        @apply
+        text-[10px] lg:text-xs
+        flex flex-wrap
+        gap-2;
+    }
+
+    .bg-tech-list {
+        @apply
+        border-[1px] border-solid border-orange-600
+        rounded
+        text-orange-500
+        bg-orange-900/30
+        px-2 py-[2px];
     }
     
 }

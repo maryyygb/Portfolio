@@ -7,11 +7,11 @@ const Navbar = () => {
 
   return (
     <div className="navbar h-[8vh] w-[100%] bg-[#1C0F06]/98 border-1 border-b-amber-700/30">
-        <div className="h-full w-full flex flex-row text-white justify-center items-center gap-6 sm:pl-12 sm:pr-12 pl-5 pr-5 text-[10px] sm:text-xl">
+        <div className="h-full w-full flex flex-row text-white justify-center items-center gap-6 sm:pl-12 sm:pr-12 pl-5 pr-5 text-[10px] sm:text-lg md:text-xl">
             <a className="name-logo mr-auto text-lg sm:text-xl lg:text-2xl" href="#home">MARY G.B.</a>
 
               {/* DESKTOP RESPONSIVENESS */}
-            <div className="normal-t text-xs font-semibold hidden text-orange-50/80 sm:flex gap-8 sm:items-center sm:text-sm lg:text-sm">
+            <div className="normal-t text-xs font-semibold hidden text-orange-50/80 sm:flex sm:gap-4 gap-8 sm:items-center sm:text-xs lg:text-sm">
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">ABOUT</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">SKILLS</a></p>
                 <p className='cursor-pointer hover:underline-orange-500/50 hover:underline-offset-2'><a href="#">WORKS</a></p>
