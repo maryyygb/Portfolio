@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio.jsx";
 import Action from "./components/Action.jsx";
 import Services from "./components/Services.jsx";
 import Process from "./components/Process.jsx";
+import Experience from "./components/Experience.jsx";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Process />
         <Services />
         <Portfolio />
+        <Experience />
         <Action />
       </section>
 

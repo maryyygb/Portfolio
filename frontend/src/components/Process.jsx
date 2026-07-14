@@ -18,7 +18,7 @@ const Process = () => {
             <p className="normal-t text-orange-50/70 text-sm w-[60vw] md:w-[500px]">
               Regardless of the role, every engagement follows the same
               foundation -{" "}
-              <span className="text-orange-50 italic">
+              <span className="text-orange-400 font-semibold italic">
                 clear communication, structured execution,
               </span>{" "}
               and results you can actually rely on.
