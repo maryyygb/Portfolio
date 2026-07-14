@@ -20,7 +20,7 @@ const Services = () => {
           </div>
         </div>
         <div className="mt-12">
-          <div className="text-orange-50 grid md:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-8">
+          <div className="text-orange-50 grid sm:grid-cols-2 xl:grid-cols-4 gap-y-8 gap-x-8">
             <div className="skills p-8 border-1 border-solid border-orange-600/35 shadow-[0_0_15px_5px] 
         shadow-orange-800/30">
               <div className="role-sec-1">
